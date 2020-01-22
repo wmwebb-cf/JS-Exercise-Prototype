@@ -116,10 +116,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1.
-  2.
-  3.
-  4.
+  1. Global: when used in global scope 'THIS' will point to the window object
+  2. New: when a constructor is used to create objects 'THIS' will point to the new object that has been created
+  3. Implicit: when a method is used, the object left of the dot gets the 'THIS'
+  4. Explicit: Whenever .call, .apply, .bind are used it will override what the this word points to
 */
 
 ///////// END OF CHALLENGE /////////
